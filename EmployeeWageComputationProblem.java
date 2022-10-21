@@ -15,6 +15,7 @@ public class EmployeeWageComputationProblem {
 		int Salary;
 
 		int randomNumber = random.nextInt(3);
+		//Here We can  use the Switch case to solve the Problem
 		switch (randomNumber) {
 		case 0:
 			System.out.println("Employee is Absent Today ");
